@@ -2,7 +2,7 @@ appium框架结构说明：
 
 1、调用关系：
 
-	（1）、read_init.py  （传入一个key，读取key对应的元素定位内容）
+	（1）、read_init.py  （传入一个key，读取key对应的元素定位内容）   --说明
 	
 		定义读取ini文件内容的函数,获取元素的定位信息，每一个页面的定位信息存放在ini文件中
 		读取出来的内容如：id>cn.com.open.mooc:id/tvPassLogin
