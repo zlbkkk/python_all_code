@@ -1,0 +1,104 @@
+appium框架结构说明：
+
+1、调用关系：
+
+	（1）、read_init.py  （传入一个key，读取key对应的元素定位内容）
+	
+		定义读取ini文件内容的函数,获取元素的定位信息，每一个页面的定位信息存放在ini文件中
+		读取出来的内容如：id>cn.com.open.mooc:id/tvPassLogin
+
+	（2）、get_by_local.py （主要进一步区分元素定位是使用id或者name等方式，返回定位方式）
+	
+	   调用读取ini文件内容的函数(read_init.py)，获取元素定位信息，判断定位是id或者name等，然后返回定位信息
+	   返回内容如：return self.driver.find_element_by_id(local)
+	 
+	 （3）、login_page.py  （传入键值，真正的进行定位）
+		页面层，继承get_by_local.py，传入ini文件中的key值，根据key值，获取他的定位内容
+		
+		代码如：
+		    def get_username_element(self):
+
+				return self.get_by_local.get_element('username')
+		
+	 （4）、操作层 login_handle.py
+		根据login_page.py找到的元素，进行send_keys、click()等操作
+		
+		代码如：
+		    def send_password(self, password):
+
+				self.login_page.get_username_element().send_keys(password)
+		
+	  （5）、login_business.py
+			组建用例流程，比如：
+			 def login_pass(self):
+				'''登录成功的case'''
+				self.login_handle.send_username("18680687654")
+				self.login_handle.send_password("888888")
+				self.login_handle.click_login()
+
+
+总结：     LocalElement.ini(存放定位元素)---> read_ini.py(获取定位元素)
+
+        ---> get_by_local.py(分离id/name和元素，返回对应的定位方式) ---> login_page.py(传入username获取元素) --->
+
+        -----> login_handle.py(对元素进行clear、sendkeys操作)
+
+        ----->login_business.py(组成用例流程)
+		
+		
+		
+		
+2、driver的引用说明：
+目前定义了一个公共的driver，因为各层级有调用关系，所以传入一个底层的层级，即可每个层级都有driver
+
+目前driver传入到页面层login_page.py层中
+
+调用关系：
+
+login_page.py -->login_handle.py-->login_business.py ---> testcase.py
+
+3、工具类说明：
+
+（一）、util.py：工具类
+
+
+
+（1）、dos_cmd. py (为后面在cmd中执行命令获取设备名称做铺垫)
+	
+	1)、excute_cmd_result()函数，功能：传入cmd命令，执行，并通过os.popen(command).readlines()方法返回结果列表；
+	
+	2）、excute_cmd()函数，只执行cmd命令，不返回结果
+		
+
+（2）、port.py
+	
+	1）、port_is_uesd()---->功能：判断端口是否可用；调用dos_cmd.py文件中执行cmd命令的函数excute_cmd_result()，返回True或者False，以此判断端口是否被占用
+	
+	2）、create_port_list() --->功能：生成可用的端口函数；给一个起始端口，根据生成的port列表的数量是否等于设备的数量while循环判断，端口是否已经完全生成
+
+
+（3）、server.py ，server中有一个函数的参数：i，i的值是由获取到的设备数决定的，0到i的数值，也决定着生成启动命令时，要列表中的哪个值来拼接，还决定着写入配置文件：user_info_"+str(i)
+	
+	1）、get_devices()---->功能：调用excute_cmd_result()函数，执行cmd命令，生成的结果经过一定处理，最终生成设备列表 devices_list[]，如：127.0.0.1:21503
+	
+	2）、create_port_list() ---> 功能：调用port.py文件中create_port_list()函数，生成端口列表 port_list[]，次函数需要传入start_port,self.device_list参数
+	
+	3）、create_command_list()-->将生成的端口、设备、bp列表进行拼接生成启动命令列表 如：appium -p 4700 -bp 4701 -u 127.0.0.1:21503，生成启动命令列表command_list[]，并写入到yaml文件中
+	
+	4)、start_server()、---->调用create_command_list()函数，获得命令列表，然后将列表传入excute_cmd()函数，执行cmd命令
+	
+	5)、main()---->对start_server()所获得的命令列表，多线程启动
+	
+
+
+    总结：对server.py中的函数的解释：
+
+        1)、main()函数主要是多线程启动,使用for循环去调用start_server()函数，启动命令
+
+        2）、start_server()会先调用create_command_list()函数,create_command_list()主要是生成命令：
+            appium -p 4700 -bp 4701 -u 127.0.0.1:21503，然后写入到yaml文件中，最后返回一个命令列表command_list
+
+        3）、然后start_server()函数会调用excute_cmd，执行command_list列表中的命令
+
+
+

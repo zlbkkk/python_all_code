@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f412f09-0c55-405c-a73f-b85d0fb7af63" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1krzPeQj9o15ZRDSsPvqtdMe6Du" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\python学习汇总\13、socket文件下载案例" />
+      <recent name="F:\python学习汇总\11、socket聊天室项目" />
+      <recent name="F:\python学习汇总\单次循环socket" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\python学习汇总" />
+      <recent name="F:\python学习汇总\16、非阻塞IO代码" />
+      <recent name="F:\python学习汇总\11、socket聊天室项目" />
+      <recent name="F:\python学习汇总\13、socket文件下载案例" />
+      <recent name="F:\python学习汇总\多次循环socket" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.练习">
+    <configuration name="练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python学习汇总" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/练习.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="16、拷贝文件练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python学习汇总" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16、拷贝文件练习.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="16_1、client端" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="python学习汇总" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16、非阻塞IO代码" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16、非阻塞IO代码/16_1、client端.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="16_2、server端 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python学习汇总" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16、非阻塞IO代码" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16、非阻塞IO代码/16_2、server端.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="17、ddt的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python学习汇总" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17、ddt的使用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.练习" />
+      <item itemvalue="Python.16_1、client端" />
+      <item itemvalue="Python.16_2、server端 (1)" />
+      <item itemvalue="Python.16、拷贝文件练习" />
+      <item itemvalue="Python.17、ddt的使用" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.练习" />
+        <item itemvalue="Python.17、ddt的使用" />
+        <item itemvalue="Python.16、拷贝文件练习" />
+        <item itemvalue="Python.16_1、client端" />
+        <item itemvalue="Python.16_2、server端 (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f412f09-0c55-405c-a73f-b85d0fb7af63" name="Default Changelist" comment="" />
+      <created>1606473475636</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606473475636</updated>
+      <workItem from="1606473480389" duration="4090000" />
+      <workItem from="1606484338326" duration="30894000" />
+      <workItem from="1606835012097" duration="35277000" />
+      <workItem from="1607140965458" duration="161000" />
+      <workItem from="1607152613835" duration="11527000" />
+      <workItem from="1607479546340" duration="817000" />
+      <workItem from="1608089379070" duration="870000" />
+      <workItem from="1608098028038" duration="616000" />
+      <workItem from="1608951288729" duration="4229000" />
+      <workItem from="1609996109314" duration="116000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606992748804">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1606992748804" />
+    <state x="427" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608951325977">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="427" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1608951325977" />
+    <state x="442" y="235" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1606484244367">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="442" y="235" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728@0.0.1366.728" timestamp="1606484244367" />
+    <state x="690" y="59" key="FileChooserDialogImpl" timestamp="1607327754101">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="690" y="59" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607327754101" />
+    <state width="1321" height="256" key="GridCell.Tab.0.bottom" timestamp="1608954411598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1321" height="256" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608954411598" />
+    <state width="1321" height="256" key="GridCell.Tab.0.center" timestamp="1608954411598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1321" height="256" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608954411598" />
+    <state width="1321" height="256" key="GridCell.Tab.0.left" timestamp="1608954411598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1321" height="256" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608954411598" />
+    <state width="1321" height="256" key="GridCell.Tab.0.right" timestamp="1608954411598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1321" height="256" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608954411598" />
+    <state width="1321" height="275" key="GridCell.Tab.1.bottom" timestamp="1608954019130">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1321" height="275" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608954019130" />
+    <state width="1321" height="275" key="GridCell.Tab.1.center" timestamp="1608954019130">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1321" height="275" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1608954019130" />
+    <state width="1321" height="275" key="GridCell.Tab.1.left" timestamp="1608954019129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1321" height="275" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1608954019129" />
+    <state width="1321" height="275" key="GridCell.Tab.1.right" timestamp="1608954019130">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1321" height="275" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1608954019130" />
+    <state x="332" y="56" key="Registry" timestamp="1607658414461">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="332" y="56" key="Registry/0.0.1366.728@0.0.1366.728" timestamp="1607658414461" />
+    <state x="239" y="0" width="916" height="728" key="SettingsEditor" timestamp="1608952829168">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="239" y="0" width="916" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608952829168" />
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1609996113594">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1609996113594" />
+    <state x="558" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607658368292">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="558" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607658368292" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python$16.coverage" NAME="16、拷贝文件练习 Coverage Results" MODIFIED="1607158671714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$71w.coverage" NAME="7、协程实现1w并发 Coverage Results" MODIFIED="1606787889159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$14socket.coverage" NAME="14、socket客户端 Coverage Results" MODIFIED="1606814606211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多次循环socket" />
+    <SUITE FILE_PATH="coverage/python$10setattr.coverage" NAME="10、setattr添加属性或方法 Coverage Results" MODIFIED="1606812594859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$18socket.coverage" NAME="18、socket客户端 Coverage Results" MODIFIED="1606903591904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11、socket聊天室项目/tcp实现并发_多个客户端同时访问" />
+    <SUITE FILE_PATH="coverage/python$13_1_socket.coverage" NAME="13_1、客户端_socket下载文件 Coverage Results" MODIFIED="1606900185600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13、socket文件下载案例" />
+    <SUITE FILE_PATH="coverage/python$13socket__.coverage" NAME="13、socket编程--服务端 Coverage Results" MODIFIED="1606893413384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11、socket聊天室项目/单用户多次循环socket" />
+    <SUITE FILE_PATH="coverage/python$14.coverage" NAME="14、多线程锁 Coverage Results" MODIFIED="1606974783832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$12socket.coverage" NAME="12、socket客户端 Coverage Results" MODIFIED="1606812658177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$_event.coverage" NAME="线程-event事件 Coverage Results" MODIFIED="1606475141930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$13_2_socket.coverage" NAME="13_2、服务端_socket下载文件 Coverage Results" MODIFIED="1606900183956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13、socket文件下载案例" />
+    <SUITE FILE_PATH="coverage/python$14socket__1_.coverage" NAME="14、socket客户端 (1) Coverage Results" MODIFIED="1606893417977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11、socket聊天室项目/单用户多次循环socket" />
+    <SUITE FILE_PATH="coverage/python$16_2_socket.coverage" NAME="16_2、服务端_socket下载文件 Coverage Results" MODIFIED="1606990544001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16、非阻塞IO代码" />
+    <SUITE FILE_PATH="coverage/python$5asyncio.coverage" NAME="5、asyncio实现协程 Coverage Results" MODIFIED="1606734458194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$6.coverage" NAME="6、协程实现并发 Coverage Results" MODIFIED="1606788725684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$16_1client.coverage" NAME="16_1、client端 Coverage Results" MODIFIED="1606993634552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16、非阻塞IO代码" />
+    <SUITE FILE_PATH="coverage/python$16socket.coverage" NAME="16、socket客户端 Coverage Results" MODIFIED="1606902636943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11、socket聊天室项目/多用户多次循环socket" />
+    <SUITE FILE_PATH="coverage/python$17socket__.coverage" NAME="17、socket编程--服务端 Coverage Results" MODIFIED="1606903585309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11、socket聊天室项目/tcp实现并发_多个客户端同时访问" />
+    <SUITE FILE_PATH="coverage/python$4.coverage" NAME="4、使用生成器生成协程 Coverage Results" MODIFIED="1606725398859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$14_2.coverage" NAME="14_2、多线程锁 Coverage Results" MODIFIED="1606975177002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$12gevent.coverage" NAME="12、gevent模块 Coverage Results" MODIFIED="1606892887895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$15.coverage" NAME="15、线程池 Coverage Results" MODIFIED="1606986161763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$9__new__.coverage" NAME="9、__new__实现单例模式 Coverage Results" MODIFIED="1606796213826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$.coverage" NAME="练习 Coverage Results" MODIFIED="1608954411584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$16_2server__1_.coverage" NAME="16_2、server端 (1) Coverage Results" MODIFIED="1606993625580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16、非阻塞IO代码" />
+    <SUITE FILE_PATH="coverage/python$81ww.coverage" NAME="8、多线程生成1w个文件w Coverage Results" MODIFIED="1606788348897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$15socket__.coverage" NAME="15、socket编程--服务端 Coverage Results" MODIFIED="1606902628031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11、socket聊天室项目/多用户多次循环socket" />
+    <SUITE FILE_PATH="coverage/python$17ddt.coverage" NAME="17、ddt的使用 Coverage Results" MODIFIED="1607409120694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$2.coverage" NAME="2 Coverage Results" MODIFIED="1606475150614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$2condition.coverage" NAME="2、condition事件 Coverage Results" MODIFIED="1606547722758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$11socket__.coverage" NAME="11、socket编程--服务端 Coverage Results" MODIFIED="1606812605915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
